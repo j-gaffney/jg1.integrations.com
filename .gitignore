@@ -1,0 +1,18 @@
+# Ignore WordPress core files*/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+sitemap.xml
+*.log
+/wp-*.php
+/index.php
+license.txt
+readme.html
+wp-admin/
+wp-includes/
+xmlrpc.php
+wp-content/cache/
+wp-content/backups/
+wp-content/mu-plugins/pagely*
+wp-config-hosting.php
+wp-config.php
+sitemap.xml.gz
