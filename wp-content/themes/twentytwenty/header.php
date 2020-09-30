@@ -57,7 +57,14 @@
 					<?php } ?>
 
 					<div class="header-titles">
-Hardcoded changed again! added dev app
+					<ul>
+						<li>
+							Hardcoded changed again! 
+						</li>
+						<li>
+							added dev to workflow 
+						</li>
+					</ul>
 						<?php
 							// Site title or logo.
 							twentytwenty_site_logo();

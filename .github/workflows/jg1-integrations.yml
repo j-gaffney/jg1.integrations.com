@@ -7,8 +7,16 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v2
-      - name: Run deploy
+        uses: actions/checkout@v2    
+      - name: Run deploy dev
+        uses: pagely/action-deploy@v1
+        with:
+          PAGELY_DEPLOY_DEST: "/httpdocs"
+          PAGELY_INTEGRATION_SECRET: ${{secrets.JG1_INTEGRATIONS_SECRET}}
+          PAGELY_INTEGRATION_ID: "YeLQLiB6M7yMCehkiM7J75"
+          PAGELY_APP_ID: "35297"
+          PAGELY_WORKING_DIR: ${{github.workspace}}
+      - name: Run deploy prod
         uses: pagely/action-deploy@v1
         with:
           PAGELY_DEPLOY_DEST: "/httpdocs"
