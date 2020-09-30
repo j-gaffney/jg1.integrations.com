@@ -64,6 +64,12 @@
 						<li>
 							added dev to workflow 
 						</li>
+						<li>
+							some bad php
+							<?php
+							echo haha
+							?>  
+						</li>
 					</ul>
 						<?php
 							// Site title or logo.
