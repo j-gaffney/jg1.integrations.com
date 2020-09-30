@@ -57,7 +57,7 @@
 					<?php } ?>
 
 					<div class="header-titles">
-
+Hardcoded change! 
 						<?php
 							// Site title or logo.
 							twentytwenty_site_logo();
