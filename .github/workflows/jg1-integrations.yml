@@ -1,6 +1,8 @@
 name: "jg1-integrations-deploy"
 on:
   push:
+    paths-ignore:
+      - 'vendor/**'
 jobs:
   deploy:
     name: Deploy to PROD
