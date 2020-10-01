@@ -65,7 +65,7 @@
 							added dev to workflow 
 						</li>
 						<li>
-							a random update 
+							a random update 2
 						</li>
 						<li>
 							<?php
