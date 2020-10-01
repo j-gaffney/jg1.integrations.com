@@ -1,8 +1,8 @@
 <?php
 namespace App;
 
-class Greeter {
-	public function greet(string $name = null):string {
+class Qa {
+	public function hello(string $name = null):string {
 		if($name) {
 			return "Hello, $name!";
 		}
