@@ -16,7 +16,9 @@ jobs:
           configuration: test/phpunit.xml
           args: --coverage-text
       - name: Delete vendor folder
-        run: rm -rf ${{github.workspace}}/vendor
+        run: |
+          ls -a ${{github.workspace}}
+          rm -rf ${{github.workspace}}/vendor
       - name: Run deploy dev
         uses: pagely/action-deploy@v1
         with:
