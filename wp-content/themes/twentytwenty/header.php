@@ -65,9 +65,8 @@
 							added dev to workflow 
 						</li>
 						<li>
-							some more bad php
 							<?php
-							somUndefinedMethod();
+							echo  'some good php';
 							?>  
 						</li>
 					</ul>
