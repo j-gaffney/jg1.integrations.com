@@ -17,6 +17,9 @@
 				<div class="section-inner">
 
 					<div class="footer-credits">
+					<p>
+					Changed the footer
+					</p>
 
 						<p class="footer-copyright">&copy;
 							<?php
