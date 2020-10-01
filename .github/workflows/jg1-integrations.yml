@@ -1,8 +1,6 @@
 name: "jg1-integrations-deploy"
 on:
   push:
-    paths-ignore:
-      - 'vendor/**'
 jobs:
   deploy:
     name: Deploy to PROD
@@ -16,7 +14,9 @@ jobs:
         uses: php-actions/phpunit@v9
         with:
           configuration: test/phpunit.xml
-          args: --coverage-text 
+          args: --coverage-text
+      - name: Delete vendor folder
+        run: rm -rf ${{github.workspace}}/vendor
       - name: Run deploy dev
         uses: pagely/action-deploy@v1
         with:
