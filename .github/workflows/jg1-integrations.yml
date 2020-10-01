@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v2   
+        uses: actions/checkout@v2
       - name: Composer action
         uses: php-actions/composer@v1
       - name: PHPUnit Tests
@@ -15,10 +15,13 @@ jobs:
         with:
           configuration: test/phpunit.xml
           args: --coverage-text
-      - name: Delete vendor folder
+      - name: List vendor folder
         run: |
           ls -ld ${{github.workspace}}/vendor
-          sudo rm -rf ${{github.workspace}}/vendor
+      # - name: Delete vendor folder
+      #   run: |
+      #     ls -ld ${{github.workspace}}/vendor
+      #     sudo rm -rf ${{github.workspace}}/vendor
       - name: Run deploy dev
         uses: pagely/action-deploy@v1
         with:
