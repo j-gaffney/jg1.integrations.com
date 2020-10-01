@@ -17,7 +17,7 @@ jobs:
           args: --coverage-text
       - name: Delete vendor folder
         run: |
-          ls -a ${{github.workspace}}
+          ls -ld ${{github.workspace}}/vendor
           rm -rf ${{github.workspace}}/vendor
       - name: Run deploy dev
         uses: pagely/action-deploy@v1
