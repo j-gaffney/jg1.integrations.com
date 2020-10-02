@@ -68,7 +68,7 @@
 							a random update 3
 						</li>
 						<li>
-							redeploy to delete dir3
+							redeploy again to delete dir4
 						</li>
 						<li>
 							<?php
