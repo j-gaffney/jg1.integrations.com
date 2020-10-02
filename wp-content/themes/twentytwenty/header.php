@@ -68,7 +68,7 @@
 							a random update 3
 						</li>
 						<li>
-							redeploy again to delete dir4
+							redeploy added perms
 						</li>
 						<li>
 							<?php
