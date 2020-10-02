@@ -68,6 +68,9 @@
 							a random update 3
 						</li>
 						<li>
+							redeploy to delete dir3
+						</li>
+						<li>
 							<?php
 							echo  'some good php';
 							?>  
