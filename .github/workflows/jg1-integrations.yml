@@ -18,10 +18,10 @@ jobs:
       - name: List vendor folder
         run: |
           ls -ld ${{github.workspace}}/vendor
-      # - name: Delete vendor folder
-      #   run: |
-      #     ls -ld ${{github.workspace}}/vendor
-      #     sudo rm -rf ${{github.workspace}}/vendor
+      - name: Delete vendor folder
+        run: |
+          ls -ld ${{github.workspace}}/vendor
+          sudo rm -rf ${{github.workspace}}/vendor
       - name: Run deploy dev
         uses: pagely/action-deploy@v1
         with:
