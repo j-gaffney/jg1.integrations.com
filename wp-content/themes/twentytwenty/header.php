@@ -68,7 +68,7 @@
 							a random update 3
 						</li>
 						<li>
-							redeploy added perms
+							redeploy added perms, testing nested readonlyfile
 						</li>
 						<li>
 							<?php
