@@ -1,6 +1,7 @@
 name: "jg1-integrations-deploy"
 on:
-  push:
+  # push:
+  pull_request:
 jobs:
   deploy:
     name: Deploy to PROD
