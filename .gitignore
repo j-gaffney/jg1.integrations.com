@@ -16,4 +16,4 @@ wp-content/mu-plugins/pagely-*
 wp-config-hosting.php
 wp-config.php
 sitemap.xml.gz
-**vendor
+**vendor*
