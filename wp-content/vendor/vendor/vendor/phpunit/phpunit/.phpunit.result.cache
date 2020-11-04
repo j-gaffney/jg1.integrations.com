@@ -1,1 +1,0 @@
-C:37:"PHPUnit\Runner\DefaultTestResultCache":238:{a:2:{s:7:"defects";a:0:{}s:5:"times";a:4:{s:42:"App\Test\GreeterTest::testGreeterSaysHello";d:0.003;s:41:"App\Test\GreeterTest::testGreeterUsesName";d:0;s:25:"App\Test\QaTest::testTrue";d:0.003;s:26:"App\Test\QaTest::testHello";d:0.001;}}}
